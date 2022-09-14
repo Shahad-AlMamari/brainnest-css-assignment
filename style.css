@@ -1,11 +1,26 @@
 @font-face {
     font-family: 'Roboto';
-    src: url(fonts/Roboto-Black.ttf);
+    src: url(fonts/Roboto-Black.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'Roboto-light';
+    src: url(fonts/Roboto-Light.ttf) format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url(fonts/Roboto-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+
 body{
     margin: 0;
     padding: 0;
 }
 header,footer{
 background-color: #1F2937;
+}
+header{
+    font-family: 'Roboto-bold', sans-serif;
 }
