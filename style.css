@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Roboto';
-    src: url(fonts/Roboto-Black.ttf) format('truetype');
+    src: url(fonts/Roboto-Regular.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Roboto-light';
@@ -21,6 +21,66 @@ body{
 header,footer{
 background-color: #1F2937;
 }
-header{
-    font-family: 'Roboto-bold', sans-serif;
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#header-logo{
+font-family: 'Roboto-bold','sans-serif';
+font-size: 24px;
+color: #F9FAF8;
+}
+#nav-bar li a, .tagline{
+    font-family: 'Roboto-light';
+    font-size: 18px;
+    color: #E5E7EB;
+}
+#nav-bar{
+    list-style: none;
+    padding: 6px 0;
+}
+#nav-bar li{
+    display: inline;
+    padding-right: 25px;
+    }
+#nav-bar li a{
+text-decoration: none;
+}
+#nav-bar li a:hover{
+    color: #3882F6;
+    }
+header h1{
+    font-family: 'Roboto-bold','sans-serif';
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    font-family: 'Roboto','sans-serif';
+    font-weight: 600;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+header img{
+    border-radius: 5px;
+    height: auto;
+    width: 500px;
+    align-items: flex-end;
+}
+
+    header{
+    margin: 0 auto;
+
+}
+
+#quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-family: 'Roboto-light', 'sans-serif';
+    font-style: italic;
+    color: #1F2937;
 }
